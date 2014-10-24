@@ -94,4 +94,18 @@ defmodule WxConstants do
 	def wxFLP_OVERWRITE_PROMPT, do:  4096 
 	def wxFLP_SAVE, do:  2048 
 	def wxFLP_OPEN, do:  1024 
+
+	#From "defs.h": wxAlignment
+	 def wxALIGN_NOT, do: 0 
+	 def wxALIGN_CENTER_HORIZONTAL, do: 256 
+	 def wxALIGN_CENTRE_HORIZONTAL, do: wxALIGN_CENTER_HORIZONTAL 
+	 def wxALIGN_LEFT, do: wxALIGN_NOT 
+	 def wxALIGN_TOP,  do: wxALIGN_NOT 
+	 def wxALIGN_RIGHT, do: 512 
+	 def wxALIGN_BOTTOM, do: 1024 
+	 def wxALIGN_CENTER_VERTICAL, do: 2048 
+	 def wxALIGN_CENTRE_VERTICAL, do: wxALIGN_CENTER_VERTICAL 
+	 def wxALIGN_CENTER, do: (wxALIGN_CENTER_HORIZONTAL ||| wxALIGN_CENTER_VERTICAL) 
+	 def wxALIGN_CENTRE, do: wxALIGN_CENTER 
+	 def wxALIGN_MASK, do: 3840 
 end
