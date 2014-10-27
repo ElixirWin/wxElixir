@@ -2,13 +2,13 @@ defmodule WxConstants do
 	import Bitwise
 
 	require Record
-  Record.defrecord :wx, Record.extract(:wx, from_lib: "wx/include/wx.hrl")
-  Record.defrecord :wxClose, Record.extract(:wxClose, from_lib: "wx/include/wx.hrl")
-  Record.defrecord :wxCommand, Record.extract(:wxCommand, from_lib: "wx/include/wx.hrl")
-  Record.defrecord :wxCalendar, Record.extract(:wxCalendar, from_lib: "wx/include/wx.hrl")
-  Record.defrecord :wxSpin, Record.extract(:wxSpin, from_lib: "wx/include/wx.hrl")
-  Record.defrecord :wxDate, Record.extract(:wxDate, from_lib: "wx/include/wx.hrl")
-  Record.defrecord :wxContextMenu, Record.extract(:wxContextMenu, from_lib: "wx/include/wx.hrl")	
+	Record.defrecord :wx, Record.extract(:wx, from_lib: "wx/include/wx.hrl")
+	Record.defrecord :wxClose, Record.extract(:wxClose, from_lib: "wx/include/wx.hrl")
+	Record.defrecord :wxCommand, Record.extract(:wxCommand, from_lib: "wx/include/wx.hrl")
+	Record.defrecord :wxCalendar, Record.extract(:wxCalendar, from_lib: "wx/include/wx.hrl")
+	Record.defrecord :wxSpin, Record.extract(:wxSpin, from_lib: "wx/include/wx.hrl")
+	Record.defrecord :wxDate, Record.extract(:wxDate, from_lib: "wx/include/wx.hrl")
+	Record.defrecord :wxContextMenu, Record.extract(:wxContextMenu, from_lib: "wx/include/wx.hrl")	
   
 	def wxID_ANY, do: -1
 	def wxDefaultSize, do: {-1,-1}
