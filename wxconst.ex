@@ -1,5 +1,5 @@
 defmodule WxConstants do
-	@vsn 0.0.1
+	@vsn "0.0.1"
 	import Bitwise
 
 	require Record
