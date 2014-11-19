@@ -83,7 +83,7 @@ defmodule WxConstants do
   #From "datectrl.h"
   def wxDP_DEFAULT, do: 0
   def wxDP_SPIN, do: 1
-  	def wxDP_DROPDOWN, do: 2
+  def wxDP_DROPDOWN, do: 2
   def wxDP_SHOWCENTURY, do: 4
   def wxDP_ALLOWNONE, do: 8
 
@@ -157,16 +157,16 @@ defmodule WxConstants do
   def wxFLP_OPEN, do:  1024 
 
   #From "defs.h": wxAlignment
-   def wxALIGN_NOT, do: 0 
-   def wxALIGN_CENTER_HORIZONTAL, do: 256 
-   def wxALIGN_CENTRE_HORIZONTAL, do: wxALIGN_CENTER_HORIZONTAL 
-   def wxALIGN_LEFT, do: wxALIGN_NOT 
-   def wxALIGN_TOP,  do: wxALIGN_NOT 
-   def wxALIGN_RIGHT, do: 512 
-   def wxALIGN_BOTTOM, do: 1024 
-   def wxALIGN_CENTER_VERTICAL, do: 2048 
-   def wxALIGN_CENTRE_VERTICAL, do: wxALIGN_CENTER_VERTICAL 
-   def wxALIGN_CENTER, do: (wxALIGN_CENTER_HORIZONTAL ||| wxALIGN_CENTER_VERTICAL) 
-   def wxALIGN_CENTRE, do: wxALIGN_CENTER 
-   def wxALIGN_MASK, do: 3840 
+  def wxALIGN_NOT, do: 0 
+  def wxALIGN_CENTER_HORIZONTAL, do: 256 
+  def wxALIGN_CENTRE_HORIZONTAL, do: wxALIGN_CENTER_HORIZONTAL 
+  def wxALIGN_LEFT, do: wxALIGN_NOT 
+  def wxALIGN_TOP,  do: wxALIGN_NOT 
+  def wxALIGN_RIGHT, do: 512 
+  def wxALIGN_BOTTOM, do: 1024 
+  def wxALIGN_CENTER_VERTICAL, do: 2048 
+  def wxALIGN_CENTRE_VERTICAL, do: wxALIGN_CENTER_VERTICAL 
+  def wxALIGN_CENTER, do: (wxALIGN_CENTER_HORIZONTAL ||| wxALIGN_CENTER_VERTICAL) 
+  def wxALIGN_CENTRE, do: wxALIGN_CENTER 
+  def wxALIGN_MASK, do: 3840 
 end
